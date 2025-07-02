@@ -97,7 +97,7 @@ header nav a:hover {
 }
 
 /* Mobile Scrine */
-@media (max-width: 375px) {
+@media (max-width: 395px) {
   header {
     display: none;
   }
@@ -261,7 +261,7 @@ header nav a:hover {
 }
 
 /* Mobile Scrine */
-@media (max-width: 375px) {
+@media (max-width: 395px) {
   .main .right-image {
     display: none;
   }
@@ -370,7 +370,7 @@ header nav a:hover {
 }
 
 /* Mobile Scrine */
-@media (max-width: 375px) {
+@media (max-width: 395px) {
   .skills {
     height: 60vh;
   }
@@ -635,7 +635,7 @@ header nav a:hover {
 }
 
 /* Mobile Scrine */
-@media (max-width: 375px) {
+@media (max-width: 395px) {
 
   .projects h2 {
     width: 50%;
@@ -796,7 +796,7 @@ footer .sochial-link {
 }
 
 /* Mobile Scrine */
-@media (max-width: 375px) {
+@media (max-width: 395px) {
   footer {
     margin: 0;
     padding: 0;
