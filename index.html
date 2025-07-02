@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Omar Ahmed | عمر احمد</title>
+  <!-- Style File -->
+  <link rel="stylesheet" href="src/css/style.css">
+  <!-- Style File Icon -->
+  <link rel="stylesheet" href="src/css/all.min.css">
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo">Omar</div>
+    <nav>
+      <a href="#main">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#contuct">Contuct US</a>
+    </nav>
+  </header>
+  <!-- Dont Forget add mobile header -->
+
+  <!-- Main -->
+  <section class="main" id="main">
+    <div class="head">
+      <!-- Image Viowr -->
+      <div id="imageModal" class="modal" onclick="closeImage()">
+        <span class="close">&times;</span>
+        <img class="modal-content" id="fullImage">
+      </div>
+      <img src="src/images/ahmed.jpg" alt="profile" class="profile" onclick="openImage(this)">
+      <h2 class="wellcome"><span>Hello</span> I'm Omar</h2>
+      <p class="descraption">I'm Omar Ahmed, a <span>Front-end developer</span> extraordinaire. I make websites shine
+        with magical touches, turning ideas into captivating designs. I love coding and bringing
+        creativity to the web!</p>
+      <a href="#contuct" class="btn">Contuct US</a>
+    </div>
+    <div class="right-image">
+      <img src="src/images/omar1.jpg" alt="" class="img1">
+      <img src="src/images/omar2.jpg" alt="" class="img2">
+      <img src="src/images/omar3.jpg" alt="" class="img3">
+      <img src="src/images/omar4.jpeg" alt="" class="img4">
+    </div>
+  </section>
+
+  <!-- Skills -->
+  <section class="skills" id="skills">
+    <h2>My Skills</h2>
+    <div class="skills-icons">
+      <i class="fab fa-html5"></i>
+      <i class="fab fa-css3"></i>
+      <i class="fab fa-js"></i>
+      <i class="fab fa-python"></i>
+      <i class="fab fa-bootstrap"></i>
+    </div>
+
+    <p class="skills-descraption">
+      Learning skills in front-end development is like recharging your creative
+      batteries! It's not just about mastering new languages and technologies, but adding that magical
+      touch to your designs to make them speak. There's always something new to learn that makes you
+      feel like a rock star in the coding world!
+    </p>
+  </section>
+
+  <!-- Proects -->
+  <section class="projects" id="projects">
+    <h2>My Projects</h2>
+    <div class="card-container">
+      <div class="card" id="card1"><img src="src/images/img1.png" class="card-img lazy-img" alt="" loading="lazy">
+        <span>Foundation</span>
+      </div>
+      <div class="card" id="card2"><img src="src/images/img12.png" class="card-img lazy-img" alt="" loading="lazy">
+        <span>Loruki</span>
+      </div>
+      <div class="card" id="card3"><img src="src/images/img4.png" class="card-img lazy-img" alt="" loading="lazy">
+        <span>Scorpion</span>
+      </div>
+      <div class="card" id="card4"><img src="src/images/img15.png" class="card-img lazy-img" alt="" loading="lazy">
+        <span>Three Dots</span>
+      </div>
+      <div class="card" id="card5"><img src="src/images/Cart-Project.png" class="card-img lazy-img" alt=""
+          loading="lazy">
+        <span>Cockes Store</span>
+      </div>
+      <div class="card" id="card6"><img src="src/images/img16.png" class="card-img lazy-img" alt="" loading="lazy">
+        <span>Speak Easily</span>
+      </div>
+    </div>
+    <a href="#" class="load-btn">Sea More</a>
+
+    <!-- 1 -->
+    <div class="card-info-cont" id="CardInfo1">
+      <button class="close fa fa-x" id="close1"></button>
+      <div class="card-info">
+        <div class="card-info-img">
+          <img src="src/images/img2.png" alt="" onclick="openImage(this)">
+          <img src="src/images/img3.png" alt="" onclick="openImage(this)">
+        </div>
+        <p class="taitle">Foundation</p>
+        <p class="descrbsion">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio libero repudiandae eaque
+          temporibus, voluptate cum possimus eligendi distinctio accusamus omnis consectetur ratione, impedit quaerat a
+          similique in voluptates! Iure, ipsam?</p>
+        <p class="toals">Toals&Skills</p>
+        <ul>
+          <li><i class="fab fa-html5"></i> HTML5</li>
+          <li><i class="fab fa-css3"></i> CSS3</li>
+          <li><i class="fab fa-js"></i> JavaScript</li>
+        </ul>
+
+        <p class="livesite">Live Site: <a href="#">foundation.com</a></p>
+      </div>
+    </div>
+
+    <!-- 2 -->
+    <div class="card-info-cont" id="CardInfo2">
+      <button class="close fa fa-x" id="close2"></button>
+      <div class="card-info">
+        <div class="card-info-img">
+          <img src="src/images/img13.png" alt="" onclick="openImage(this)">
+          <img src="src/images/img14.png" alt="" onclick="openImage(this)">
+        </div>
+        <p class="taitle">Loruki</p>
+        <p class="descrbsion">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio libero repudiandae eaque
+          temporibus, voluptate cum possimus eligendi distinctio accusamus omnis consectetur ratione, impedit quaerat a
+          similique in voluptates! Iure, ipsam?</p>
+        <p class="toals">Toals&Skills</p>
+        <ul>
+          <li><i class="fab fa-html5"></i> HTML5</li>
+          <li><i class="fab fa-css3"></i> CSS3</li>
+          <li><i class="fab fa-js"></i> JavaScript</li>
+        </ul>
+
+        <p class="livesite">Live Site: <a href="#">loruki.com</a></p>
+      </div>
+    </div>
+
+    <!-- 3 -->
+    <div class="card-info-cont" id="CardInfo3">
+      <button class="close fa fa-x" id="close3"></button>
+      <div class="card-info">
+        <div class="card-info-img">
+          <img src="src/images/img5.png" alt="" onclick="openImage(this)">
+          <img src="src/images/img6.png" alt="" onclick="openImage(this)">
+        </div>
+        <p class="taitle">Scorpion</p>
+        <p class="descrbsion">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Optio libero repudiandae eaque
+          temporibus, voluptate cum possimus eligendi distinctio accusamus omnis consectetur ratione, impedit quaerat a
+          similique in voluptates! Iure, ipsam?</p>
+        <p class="toals">Toals&Skills</p>
+        <ul>
+          <li><i class="fab fa-html5"></i> HTML5</li>
+          <li><i class="fab fa-css3"></i> CSS3</li>
+          <li><i class="fab fa-js"></i> JavaScript</li>
+        </ul>
+
+        <p class="livesite">Live Site: <a href="#">scjeans.net</a></p>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Footer -->
+  <footer id="contuct">
+    <h2>Contuct With Me</h2>
+    <div class="link-cont">
+      <div class="contuct-link">
+        <p>Send Me Message On :</p>
+        <a href="mailto:"><i class="far fa-envelope"></i> Omar Ahmed</a><br>
+        <a href="http://" target="_blank" rel="noopener noreferrer"><i class="fab fa-whatsapp"></i>Send a Message</a>
+      </div>
+
+      <div class="sochial-link">
+        <p>And You Can Foolo Me On :</p>
+        <div class="social-cont">
+          <a href="" class="fab fa-linkedin"></a>
+          <a href="" class="fab fa-instagram"></a>
+          <a href="" class="fab fa-github"></a>
+        </div>
+      </div>
+    </div>
+
+  </footer>
+  <script src="src/js/Scribt.js"></script>
+</body>
+
+
+</html>
